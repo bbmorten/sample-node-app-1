@@ -1,8 +1,11 @@
 version: '3.8'
 
 services:
-  app:
+  app1:
+    image: appimage
+    ports:
+      - "8031:8080"
+  app2:
     build: .
     ports:
-      - "9001:8080"
-    
+      - "8032:8080"

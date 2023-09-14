@@ -47,5 +47,5 @@ app.get("/", function (req, res) {
 
 // listen for connections
 app.listen(server_port, function() {
-  console.log(`Testing app listening on port ${server_port}`)
+  console.log(`Testing XXX app listening on port ${server_port}`)
 });
