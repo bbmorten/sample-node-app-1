@@ -1,0 +1,7 @@
+.env
+Dockerfile
+.dockerignore
+
+# Ignore all .json files except package.json
+*.json
+!package.json
